@@ -1,0 +1,115 @@
+body {
+    font-family: 'Potta One', cursive;
+    background: url('fundo.gif');
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #ff14ff
+}
+
+.profile {
+    background-image: url('hah.gif');
+    background-repeat: repeat;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ffd1dc;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffd1dc;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    color: rgb(234, 0, 255);
+    text-shadow: 2px 2px 3px #ffd1dc, 0 0 25px #ffd1dc, 0 0 5px black;
+    margin-top: 15px;
+}
+
+.general-about {
+    background-image: url('https://64.media.tumblr.com/1e2598616e90eb0f6b243be1b9642ae1/5583e57f872090cb-79/s2048x3072_c0,21726,100000,77976/ccaa0b27eaa3ea333eeb0df8a6838f4600d3117c.gif');
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ffd1dc;
+}
+
+.table-section {
+    border: 2px solid #c50576;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.heading {
+    background: #000000;
+    border-bottom: 1px solid #c50576;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.heading h4 {
+    color: #c50576;
+    margin: 0;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details-table td {
+    padding: 15px;
+    vertical-align: top;
+    border-bottom: 1px solid #ffd1dc;
+}
+
+.carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.carousel-content {
+    display: inline-flex;
+    gap: 15px;
+}
+
+.contact {
+    background-image: url('https://data.whicdn.com/images/349633308/original.gif');
+    background-position: right top;
+    background-repeat: repeat;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #ff14ff;
+}
